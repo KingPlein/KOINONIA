@@ -1,0 +1,47 @@
+```
+# Build artifacts
+build/
+dist/
+
+# Dependencies
+.pub/
+.dart_tool/
+packages/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+
+# Debug files
+debug/
+*.dbg
+*.pdb
+
+# Distribution / packaging
+*.tar.gz
+*.zip
+
+# Flutter specific
+**/ios/Flutter/.last_build_id
+**/windows/Flutter/ephemeral
+**/linux/Flutter/ephemeral
+```
