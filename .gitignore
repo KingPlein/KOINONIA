@@ -1,12 +1,9 @@
 ```
-# Build artifacts
-build/
-dist/
-
 # Dependencies
-.pub/
 .dart_tool/
-packages/
+.packages
+.pub/
+pubspec.lock
 
 # Logs and temp files
 *.log
@@ -26,22 +23,4 @@ packages/
 # OS generated files
 .DS_Store
 Thumbs.db
-
-# Coverage reports
-coverage/
-htmlcov/
-
-# Debug files
-debug/
-*.dbg
-*.pdb
-
-# Distribution / packaging
-*.tar.gz
-*.zip
-
-# Flutter specific
-**/ios/Flutter/.last_build_id
-**/windows/Flutter/ephemeral
-**/linux/Flutter/ephemeral
 ```
